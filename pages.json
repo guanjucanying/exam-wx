@@ -1,0 +1,127 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "在线考试系统"
+		
+		}
+	}    ,{
+            "path" : "pages/study/study",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "在线学习",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/exam/exam",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "在线考试",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/training/training",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "题库训练",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/info/info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/competition/competition",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "知识竞赛",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/competition/details/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "竞赛详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/certificate/certificate",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的证书",
+		        "enablePullDownRefresh": false
+		    }
+		}
+		,{
+			"path": "pages/passwordSafe/passwordSafe",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}
+		,{
+			"path": "pages/changeData/changeData",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		}
+		
+		
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "在线考试系统",
+		"navigationBarBackgroundColor": "#0279ff",
+		"backgroundColor": "#0279ff",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#0472ef",
+		"borderStyle": "white",
+		"backgroundColor": "#fefefe",
+		"fontSize": "15px",//微信小程序中并没该设置，所以不生效
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/icon/index.png",
+			"selectedIconPath": "static/icon/selectindex.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/study/study",
+			"iconPath": "static/icon/study.png",
+			"selectedIconPath": "static/icon/selectstudy.png",
+			"text": "学习"
+		}, {
+			"pagePath": "pages/exam/exam",
+			"iconPath": "static/icon/exam.png",
+			"selectedIconPath": "static/icon/selectexam.png",
+			"text": "考试"
+		}, {
+			"pagePath": "pages/training/training",
+			"iconPath": "static/icon/training.png",
+			"selectedIconPath": "static/icon/selecttraining.png",
+			"text": "训练"
+		}, {
+			"pagePath": "pages/info/info",
+			"iconPath": "static/icon/info.png",
+			"selectedIconPath": "static/icon/selectinfo.png",
+			"text": "我的"
+		}]
+	}
+}
